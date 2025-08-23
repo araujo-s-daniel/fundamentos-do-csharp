@@ -111,7 +111,6 @@ string NomeEIdade(string nome, int idade)
 {
     return "Meu nome é " + nome + " e tenho " + idade + " anos";
 }
-*/
 
 using System.Collections;
 
@@ -128,6 +127,32 @@ arrayList.RemoveAt(1);
 arrayList.Clear();
 
 foreach (var item in arrayList)
+{
+    Console.WriteLine(item);
+}
+*/
+
+// var arrayTipadoNumero = new int[3] { 1, 2, 3 };
+var arrayTipadoNumero = new int[3];
+arrayTipadoNumero[0] = 5;
+arrayTipadoNumero[1] = 5;
+arrayTipadoNumero[2] = 10;
+
+// Array.Resize(ref arrayTipadoNumero, 100);
+
+// arrayTipadoNumero[10] = 100;
+
+foreach (var item in arrayTipadoNumero)
+{
+    Console.WriteLine(item);
+}
+
+// var arrayTipadoString = new string[2] { "Rafael", "Almeida" };
+var arrayTipadoString = new string[2];
+arrayTipadoString[0] = "Rafael";
+arrayTipadoString[1] = "Almeida";
+
+foreach (var item in arrayTipadoString)
 {
     Console.WriteLine(item);
 }
