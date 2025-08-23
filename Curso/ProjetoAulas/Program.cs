@@ -35,7 +35,6 @@ Console.WriteLine(multiplicacao);
 
 var divisao = numero2 / numero1;
 Console.WriteLine(divisao);
-*/
 
 int numero1 = 1;
 int numero2 = 2;
@@ -57,3 +56,16 @@ Console.WriteLine(menorOuIgual);
 
 bool menor = numero1 < numero2;
 Console.WriteLine(menor);
+*/
+
+int numero1 = 1;
+int numero2 = 2;
+
+bool valido = numero2 > numero1 && 6 > 7;
+Console.WriteLine(valido);
+
+bool valido2 = numero2 > numero1 || 6 > 7;
+Console.WriteLine(valido2);
+
+bool valido3 = !(numero2 > numero1);
+Console.WriteLine(valido3);
