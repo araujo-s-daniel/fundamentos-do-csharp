@@ -14,4 +14,8 @@ var idadeNova = 34;
 char flag = 'Y';
 Console.WriteLine(flag);
 bool ativo = true;
+ativo = false;
 Console.WriteLine(ativo);
+
+const string descricao = "Curso CSharp";
+Console.WriteLine(descricao);
