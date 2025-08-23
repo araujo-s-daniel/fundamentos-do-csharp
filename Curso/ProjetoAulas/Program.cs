@@ -68,8 +68,31 @@ Console.WriteLine(valido2);
 
 bool valido3 = !(numero2 > numero1);
 Console.WriteLine(valido3);
-*/
 
 bool ativo = false;
 string status = ativo ? "Cadastro Ativo" : "Cadastro Inativo";
 Console.WriteLine(status);
+*/
+
+string NomeCompleto()
+{
+    string primeiroNome = "Rafael";
+    string segundoNome = "Almeida";
+    return primeiroNome + " " + segundoNome;
+}
+
+int SomaValores()
+{
+    return 8 + 2;
+}
+
+void EscreverNome()
+{
+    var nome = NomeCompleto();
+    Console.WriteLine(nome);
+
+    var soma = SomaValores();
+    Console.WriteLine(soma);
+}
+
+EscreverNome();
