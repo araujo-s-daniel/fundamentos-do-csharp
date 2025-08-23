@@ -72,7 +72,6 @@ Console.WriteLine(valido3);
 bool ativo = false;
 string status = ativo ? "Cadastro Ativo" : "Cadastro Inativo";
 Console.WriteLine(status);
-*/
 
 string NomeCompleto()
 {
@@ -96,3 +95,20 @@ void EscreverNome()
 }
 
 EscreverNome();
+*/
+
+var soma = SomaValores(3, 5);
+Console.WriteLine(soma);
+
+var nome = NomeEIdade("Rafael", 33);
+Console.WriteLine(nome);
+
+int SomaValores(int a, int b)
+{
+    return a + b;
+}
+
+string NomeEIdade(string nome, int idade)
+{
+    return "Meu nome é " + nome + " e tenho " + idade + " anos";
+}
