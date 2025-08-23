@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Primeiro Programa");
+﻿/*
+Console.WriteLine("Primeiro Programa");
 
 int idade = 33;
 Console.WriteLine(idade);
@@ -17,12 +18,21 @@ bool ativo = true;
 ativo = false;
 Console.WriteLine(ativo);
 
-// Isso é uma constante
 const string descricao = "Curso CSharp";
-// descricao = "Curso";
-
-/*
-  Linha 1
-  Linha 2
-*/
 Console.WriteLine(descricao);
+*/
+
+int numero1 = 1;
+var numero2 = 2;
+
+var soma = numero1 + numero2;
+Console.WriteLine(soma);
+
+var subtracao = numero2 - numero1;
+Console.WriteLine(subtracao);
+
+var multiplicacao = (numero2 * numero1) * 10;
+Console.WriteLine(multiplicacao);
+
+var divisao = numero2 / numero1;
+Console.WriteLine(divisao);
