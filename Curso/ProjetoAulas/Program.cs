@@ -95,7 +95,6 @@ void EscreverNome()
 }
 
 EscreverNome();
-*/
 
 var soma = SomaValores(3, 5);
 Console.WriteLine(soma);
@@ -111,4 +110,24 @@ int SomaValores(int a, int b)
 string NomeEIdade(string nome, int idade)
 {
     return "Meu nome é " + nome + " e tenho " + idade + " anos";
+}
+*/
+
+using System.Collections;
+
+var arrayList = new ArrayList();
+arrayList.Add(1);
+arrayList.Add("Rafael");
+arrayList.Add(true);
+
+// Console.WriteLine(arrayList[1]);
+
+arrayList.RemoveAt(1);
+
+// arrayList = new ArrayList();
+arrayList.Clear();
+
+foreach (var item in arrayList)
+{
+    Console.WriteLine(item);
 }
