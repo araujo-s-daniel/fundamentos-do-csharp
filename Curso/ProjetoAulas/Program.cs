@@ -56,7 +56,6 @@ Console.WriteLine(menorOuIgual);
 
 bool menor = numero1 < numero2;
 Console.WriteLine(menor);
-*/
 
 int numero1 = 1;
 int numero2 = 2;
@@ -69,3 +68,8 @@ Console.WriteLine(valido2);
 
 bool valido3 = !(numero2 > numero1);
 Console.WriteLine(valido3);
+*/
+
+bool ativo = false;
+string status = ativo ? "Cadastro Ativo" : "Cadastro Inativo";
+Console.WriteLine(status);
