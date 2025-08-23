@@ -20,7 +20,6 @@ Console.WriteLine(ativo);
 
 const string descricao = "Curso CSharp";
 Console.WriteLine(descricao);
-*/
 
 int numero1 = 1;
 var numero2 = 2;
@@ -36,3 +35,25 @@ Console.WriteLine(multiplicacao);
 
 var divisao = numero2 / numero1;
 Console.WriteLine(divisao);
+*/
+
+int numero1 = 1;
+int numero2 = 2;
+
+bool igual = numero1 == numero2;
+Console.WriteLine(igual);
+
+bool diferente = numero1 != numero2;
+Console.WriteLine(diferente);
+
+bool maiorOuIgual = numero1 >= numero2;
+Console.WriteLine(maiorOuIgual);
+
+bool maior = numero1 > numero2;
+Console.WriteLine(maior);
+
+bool menorOuIgual = numero1 <= numero2;
+Console.WriteLine(menorOuIgual);
+
+bool menor = numero1 < numero2;
+Console.WriteLine(menor);
