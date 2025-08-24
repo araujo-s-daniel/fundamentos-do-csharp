@@ -155,7 +155,6 @@ foreach (var item in arrayTipadoString)
 {
     Console.WriteLine(item);
 }
-*/
 
 var lista = new List<string>(10)
 {
@@ -174,4 +173,22 @@ lista.RemoveAt(1);
 foreach (var item in lista)
 {
     Console.WriteLine(item);
+}
+*/
+
+var dicionario = new Dictionary<string, string>()
+{
+    { "teste", "Teste" },
+    { "teste6", "Teste 6" },
+};
+dicionario.Add("nome", "Rafael");
+
+dicionario["curso"] = "Curso";
+
+var nome = dicionario["curso"];
+// Console.WriteLine(nome);
+
+foreach (var item in dicionario)
+{
+    Console.WriteLine(item.Value);
 }
