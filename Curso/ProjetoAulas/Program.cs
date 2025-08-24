@@ -222,7 +222,6 @@ Console.WriteLine(nome2);
 // {
 //     Console.WriteLine(item);
 // }
-*/
 
 // var diaDaSemana = 0;
 // var diaDeTrabalho = false;
@@ -272,4 +271,46 @@ else if (diaDaSemana == 6)
 else
 {
     Console.WriteLine("Dia da semana inválido");
+}
+*/
+
+// var diaDaSemana = 0;
+
+// switch (diaDaSemana)
+// {
+//     case 0:
+//         Console.WriteLine("Hoje é domingo");
+//         break;
+//     case 1:
+//         Console.WriteLine("Hoje é segunda");
+//         break;
+//     case 2:
+//         Console.WriteLine("Hoje é terça");
+//         break;
+//     case 3:
+//         Console.WriteLine("Hoje é quarta");
+//         break;
+//     case 4:
+//         Console.WriteLine("Hoje é quinta");
+//         break;
+//     case 5:
+//         Console.WriteLine("Hoje é sexta");
+//         break;
+//     case 6:
+//         Console.WriteLine("Hoje é sábado");
+//         break;
+//     default:
+//         Console.WriteLine("Dia da semana inválido");
+//         break;
+// }
+
+var diaDaSemana = 0;
+
+if (diaDaSemana < 1)
+{
+    Console.WriteLine("Hoje é domingo");
+}
+else
+{
+    Console.WriteLine("Hoje não é domingo");
 }
