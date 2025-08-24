@@ -191,7 +191,6 @@ foreach (var item in dicionario)
 {
     Console.WriteLine(item.Value);
 }
-*/
 
 var queue = new Queue<string>();
 queue.Enqueue("Rafael");
@@ -205,6 +204,22 @@ Console.WriteLine(nome1);
 Console.WriteLine(nome2);
 
 // foreach (var item in queue)
+// {
+//     Console.WriteLine(item);
+// }
+*/
+
+var stack = new Stack<string>();
+
+stack.Push("Rafael");
+stack.Push("Almeida");
+
+var nome1 = stack.Pop();
+var nome2 = stack.Pop();
+Console.WriteLine(nome1);
+Console.WriteLine(nome2);
+
+// foreach (var item in stack)
 // {
 //     Console.WriteLine(item);
 // }
