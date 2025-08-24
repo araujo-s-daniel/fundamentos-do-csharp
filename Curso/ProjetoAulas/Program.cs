@@ -322,7 +322,6 @@ for (int i = 0; i < count; i++)
     var nome = lista[i];
     Console.WriteLine(nome);
 }
-*/
 
 var lista = new List<string>() { "Rafael", "Curso", "CSharp" };
 
@@ -335,3 +334,20 @@ foreach (var letra in "Rafael Almeida")
 {
     Console.WriteLine(letra);
 }
+*/
+
+var i = 3;
+
+while (i < 2)
+{
+    Console.WriteLine("var i = " + i);
+    i++;
+}
+
+var j = 3;
+
+do
+{
+    Console.WriteLine("var j = " + j);
+    j++;
+} while (j < 2);
