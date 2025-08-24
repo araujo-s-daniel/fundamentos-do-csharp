@@ -174,7 +174,6 @@ foreach (var item in lista)
 {
     Console.WriteLine(item);
 }
-*/
 
 var dicionario = new Dictionary<string, string>()
 {
@@ -192,3 +191,20 @@ foreach (var item in dicionario)
 {
     Console.WriteLine(item.Value);
 }
+*/
+
+var queue = new Queue<string>();
+queue.Enqueue("Rafael");
+queue.Enqueue("Almeida");
+
+// var nome1 = queue.Peek();
+// var nome2 = queue.Peek();
+var nome1 = queue.Dequeue();
+var nome2 = queue.Dequeue();
+Console.WriteLine(nome1);
+Console.WriteLine(nome2);
+
+// foreach (var item in queue)
+// {
+//     Console.WriteLine(item);
+// }
