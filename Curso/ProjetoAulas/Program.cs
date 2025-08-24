@@ -130,7 +130,6 @@ foreach (var item in arrayList)
 {
     Console.WriteLine(item);
 }
-*/
 
 // var arrayTipadoNumero = new int[3] { 1, 2, 3 };
 var arrayTipadoNumero = new int[3];
@@ -153,6 +152,26 @@ arrayTipadoString[0] = "Rafael";
 arrayTipadoString[1] = "Almeida";
 
 foreach (var item in arrayTipadoString)
+{
+    Console.WriteLine(item);
+}
+*/
+
+var lista = new List<string>(10)
+{
+    "Rafael",
+    "Almeida"
+};
+// lista.Add("Rafael");
+// lista.Add("Almeida");
+// lista.Add("Curso");
+
+var nome = lista[0];
+Console.WriteLine(nome);
+
+lista.RemoveAt(1);
+
+foreach (var item in lista)
 {
     Console.WriteLine(item);
 }
