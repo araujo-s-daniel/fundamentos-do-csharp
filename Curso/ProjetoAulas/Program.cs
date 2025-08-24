@@ -272,7 +272,6 @@ else
 {
     Console.WriteLine("Dia da semana inválido");
 }
-*/
 
 // var diaDaSemana = 0;
 
@@ -313,4 +312,14 @@ if (diaDaSemana < 1)
 else
 {
     Console.WriteLine("Hoje não é domingo");
+}
+*/
+
+var lista = new List<string>() { "Rafael", "Curso", "CSharp" };
+var count = lista.Count;
+
+for (int i = 0; i < count; i++)
+{
+    var nome = lista[i];
+    Console.WriteLine(nome);
 }
