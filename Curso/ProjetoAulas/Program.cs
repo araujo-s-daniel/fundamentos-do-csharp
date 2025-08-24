@@ -313,7 +313,6 @@ else
 {
     Console.WriteLine("Hoje não é domingo");
 }
-*/
 
 var lista = new List<string>() { "Rafael", "Curso", "CSharp" };
 var count = lista.Count;
@@ -322,4 +321,17 @@ for (int i = 0; i < count; i++)
 {
     var nome = lista[i];
     Console.WriteLine(nome);
+}
+*/
+
+var lista = new List<string>() { "Rafael", "Curso", "CSharp" };
+
+// foreach (string item in lista)
+// {
+//     Console.WriteLine(item);
+// }
+
+foreach (var letra in "Rafael Almeida")
+{
+    Console.WriteLine(letra);
 }
