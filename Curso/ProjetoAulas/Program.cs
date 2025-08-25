@@ -1,6 +1,7 @@
 ﻿// Console.WriteLine("Primeiro Programa");
 
 using System;
+using Modulo10;
 
 namespace Application
 {
@@ -16,7 +17,14 @@ namespace Application
             // AulaRecord();
             // AulaInterface();
             // Conversores();
-            AulaTryParse();
+            // AulaTryParse();
+            TrabalhandoComStrings();
+        }
+
+        private static void TrabalhandoComStrings()
+        {
+            var trabalhandoComStrings = new Modulo10.TrabalhandoComStrings();
+            trabalhandoComStrings.ConverterParaLetrasMinusculas();
         }
 
         private static void AulaTryParse()
