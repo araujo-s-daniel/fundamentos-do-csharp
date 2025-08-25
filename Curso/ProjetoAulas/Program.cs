@@ -14,7 +14,14 @@ namespace Application
             // AulaClasseSelada();
             // AulaClasseAbstrata();
             // AulaRecord();
-            AulaInterface();
+            // AulaInterface();
+            Conversores();
+        }
+
+        public static void Conversores()
+        {
+            var conversores = new Conversores.Conversor();
+            conversores.ConvertAndParse();
         }
 
         private static void AulaInterface()
