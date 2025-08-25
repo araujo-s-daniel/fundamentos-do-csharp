@@ -48,4 +48,10 @@ public class TrabalhandoComDatas
         Console.WriteLine(data1.AddMinutes(1).ToString("HH:mm:ss"));
         Console.WriteLine(data1.AddSeconds(2).ToString("HH:mm:ss"));
     }
+
+    public void AulaDiaDaSemana()
+    {
+        var data1 = DateTime.Now;
+        Console.WriteLine(data1.DayOfWeek);
+    }
 }
