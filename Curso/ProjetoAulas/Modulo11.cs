@@ -61,4 +61,11 @@ public class TrabalhandoComDatas
         var somenteData = DateOnly.Parse("2022-12-02");
         Console.WriteLine(somenteData.ToString("dd/MM/yyyy"));
     }
+
+    public void AulaTimeOnly()
+    {
+        //var somenteHora = new TimeOnly(12, 23, 25);
+        var somenteHora = TimeOnly.Parse("23:01:23");
+        Console.WriteLine(somenteHora.ToString("hh:mm:ss"));
+    }
 }
