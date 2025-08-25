@@ -10,7 +10,21 @@ namespace Application
         {
             // AulaClasses();
             // AulaPropriedadeSomenteLeitura();
-            AulaHeranca();
+            // AulaHeranca();
+            AulaClasseSelada();
+        }
+
+        private static void AulaClasseSelada()
+        {
+            // var configuracao = new Cadastro.Configuracao();
+            // configuracao.Host = "localhost";
+
+            var configuracao = new Cadastro.Configuracao
+            {
+                Host = "localhost"
+            };
+
+            Console.WriteLine(configuracao.Host);
         }
 
         private static void AulaHeranca()
