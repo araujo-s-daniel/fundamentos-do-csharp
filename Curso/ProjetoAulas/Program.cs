@@ -2,6 +2,7 @@
 
 using System;
 using Modulo10;
+using Modulo12;
 
 namespace Application
 {
@@ -19,7 +20,14 @@ namespace Application
             // Conversores();
             // AulaTryParse();
             // TrabalhandoComStrings();
-            TrabalhandoComDatas();
+            // TrabalhandoComDatas();
+            TrabalhandoComExcecoes();
+        }
+
+        private static void TrabalhandoComExcecoes()
+        {
+            var trabalhandoComExcecoes = new Modulo12.TrabalhandoComExcecoes();
+            trabalhandoComExcecoes.AulaGerandoException();
         }
 
         private static void TrabalhandoComDatas()
