@@ -20,4 +20,15 @@ public class TrabalhandoComDatas
         Console.WriteLine(dateOffset1.LocalDateTime);
         Console.WriteLine(dateOffset1.UtcDateTime);
     }
+
+    public void AulaSubtraindoDatas()
+    {
+        var data1 = DateTime.Now;
+        var data2 = DateTime.Parse("2022-01-01");
+
+        // var diff = data1 - data2;
+        var diff = data1.Subtract(data2);
+        Console.WriteLine((int)diff.TotalDays);
+        Console.WriteLine((int)diff.TotalHours);
+    }
 }
