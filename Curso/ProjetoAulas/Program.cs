@@ -28,7 +28,8 @@ namespace Application
             // trabalhandoComStrings.ConverterParaLetrasMaisculas();
             // trabalhandoComStrings.AulaSubstring();
             // trabalhandoComStrings.AulaRange();
-            trabalhandoComStrings.AulaContains();
+            // trabalhandoComStrings.AulaContains();
+            trabalhandoComStrings.AulaTrim();
         }
 
         private static void AulaTryParse()
