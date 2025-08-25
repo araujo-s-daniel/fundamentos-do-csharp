@@ -21,7 +21,14 @@ namespace Application
             // AulaTryParse();
             // TrabalhandoComStrings();
             // TrabalhandoComDatas();
-            TrabalhandoComExcecoes();
+            // TrabalhandoComExcecoes();
+            TrabalhandoComArquivos();
+        }
+
+        private static void TrabalhandoComArquivos()
+        {
+            var trabalhandoComArquivos = new Modulo13.TrabalhandoComArquivos();
+            trabalhandoComArquivos.AulaCriandoArquivo();
         }
 
         private static void TrabalhandoComExcecoes()
