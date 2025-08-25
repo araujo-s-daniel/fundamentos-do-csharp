@@ -1,9 +1,0 @@
-ID...:9
-Nome.:Rafael Almeida
---------------------
-ID...:55
-Nome.:Eduardo Pires
---------------------
-ID...:60
-Nome.:Bruno
---------------------
