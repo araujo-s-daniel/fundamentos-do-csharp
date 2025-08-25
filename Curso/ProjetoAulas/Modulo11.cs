@@ -31,4 +31,12 @@ public class TrabalhandoComDatas
         Console.WriteLine((int)diff.TotalDays);
         Console.WriteLine((int)diff.TotalHours);
     }
+
+    public void AulaAdicionandoDiasMesEAno()
+    {
+        var data1 = DateTime.Now;
+        Console.WriteLine(data1.AddDays(3).ToString("dd/MM/yyyy HH:mm:ss"));
+        Console.WriteLine(data1.AddMonths(1).ToString("dd/MM/yyyy HH:mm:ss"));
+        Console.WriteLine(data1.AddYears(2).ToString("dd/MM/yyyy HH:mm:ss"));
+    }
 }
