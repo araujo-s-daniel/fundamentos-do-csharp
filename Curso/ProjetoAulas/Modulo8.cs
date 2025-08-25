@@ -73,4 +73,25 @@ namespace Cadastro
     {
         public string? Host { get; set; }
     }
+
+    public abstract class Animal
+    {
+        public string? Nome { get; set; }
+
+        public abstract string GetInformacoes();
+
+        public void ImprimirDados()
+        {
+            Console.WriteLine("Nome do animal: " + Nome);
+            Console.WriteLine("Informações: " + GetInformacoes());
+        }
+    }
+
+    public class Cachorro : Animal
+    {
+        public override string GetInformacoes()
+        {
+            return "Cachorro é um bom amigo";
+        }
+    }
 }
