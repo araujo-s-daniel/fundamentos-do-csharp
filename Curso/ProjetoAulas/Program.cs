@@ -15,10 +15,24 @@ namespace Application
             // AulaClasseAbstrata();
             // AulaRecord();
             // AulaInterface();
-            Conversores();
+            // Conversores();
+            AulaTryParse();
         }
 
-        public static void Conversores()
+        private static void AulaTryParse()
+        {
+            var numero = "abc";
+            int numeroConvertido;
+
+            if (int.TryParse(numero, out numeroConvertido))
+            {
+                Console.WriteLine("Número foi convertido com sucesso");
+            }
+
+            Console.WriteLine(numeroConvertido);
+        }
+
+        private static void Conversores()
         {
             var conversores = new Conversores.Conversor();
             conversores.ConvertAndParse();
