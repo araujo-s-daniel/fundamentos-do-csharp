@@ -29,7 +29,8 @@ namespace Application
             // trabalhandoComStrings.AulaSubstring();
             // trabalhandoComStrings.AulaRange();
             // trabalhandoComStrings.AulaContains();
-            trabalhandoComStrings.AulaTrim();
+            // trabalhandoComStrings.AulaTrim();
+            trabalhandoComStrings.AulaStartsWithEndsWith();
         }
 
         private static void AulaTryParse()
