@@ -58,4 +58,13 @@ public class TrabalhandoComLinq
         var resultado = numeros.Count(p => p > 10);
         Console.WriteLine(resultado);
     }
+
+    public void AulaFirstFirstOrDefault()
+    {
+        var numeros = new int[] { 10, 6, 5, 50, 15, 2 };
+        // var resultado = numeros.First();
+        // var resultado = numeros.First(p => p > 15);
+        var resultado = numeros.FirstOrDefault(p => p > 100, -99);
+        Console.WriteLine(resultado);
+    }
 }

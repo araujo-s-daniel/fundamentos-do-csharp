@@ -32,7 +32,8 @@ namespace Application
             // trabalhandoComLinq.AulaWhere();
             // trabalhandoComLinq.AulaOrdenacao();
             // trabalhandoComLinq.AulaTake();
-            trabalhandoComLinq.AulaCount();
+            // trabalhandoComLinq.AulaCount();
+            trabalhandoComLinq.AulaFirstFirstOrDefault();
         }
 
         private static void TrabalhandoComArquivos()
