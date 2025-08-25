@@ -20,11 +20,24 @@ public class TrabalhandoComLinq
         // }
 
         var numeros = new int[] { 10, 6, 5, 50, 15, 2 };
-        var resultado  = numeros.Where(p => p >= 10);
+        var resultado = numeros.Where(p => p >= 10);
 
         foreach (var numero in resultado)
         {
             Console.WriteLine(numero);
+        }
+    }
+
+    public void AulaOrdenacao()
+    {
+        // var numeros = new int[] { 10, 6, 5, 50, 15, 2 };
+        var nomes = new string[] { "Rafael", "Eduardo", "Bruno" };
+        // var resultado = numeros.OrderByDescending(p => p);
+        var resultado = nomes.OrderBy(p => p);
+
+        foreach (var nome in resultado)
+        {
+            Console.WriteLine(nome);
         }
     }
 }
