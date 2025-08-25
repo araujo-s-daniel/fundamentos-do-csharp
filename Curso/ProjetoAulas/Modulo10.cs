@@ -24,4 +24,19 @@ public class TrabalhandoComStrings
         Console.WriteLine(linha?.Substring(6, 5));
         Console.WriteLine(linha?.Substring(6));
     }
+
+    public void AulaRange()
+    {
+        string nomeArquivo = "2022_12_01_backup.bak";
+        var ano = nomeArquivo[..4];
+        Console.WriteLine(ano);
+        var extensao = nomeArquivo[^3..];
+        Console.WriteLine(extensao);
+
+        var nome = nomeArquivo[11..^4];
+        Console.WriteLine(nome);
+
+        var apenasNome = nomeArquivo[..^4];
+        Console.WriteLine(apenasNome);
+    }
 }
