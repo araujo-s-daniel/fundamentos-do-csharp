@@ -12,4 +12,19 @@ public class TrabalhandoComArquivos
         escrever.WriteLine("--------------------");
         escrever.Close();
     }
+
+    public void AulaLendoArquivo()
+    {
+        // var conteudo = File.ReadAllText("Cadastro.txt");
+        // Console.WriteLine(conteudo);
+
+        var ler = new StreamReader("Cadastro.txt");
+        while (!ler.EndOfStream)
+        {
+            var linha = ler.ReadLine();
+            Console.WriteLine(linha);
+        }
+
+        ler.Close();
+    }
 }
