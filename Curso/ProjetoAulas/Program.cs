@@ -8,7 +8,16 @@ namespace Application
     {
         static void Main(string[] args)
         {
-            AulaClasses();
+            // AulaClasses();
+            AulaPropriedadeSomenteLeitura();
+        }
+
+        private static void AulaPropriedadeSomenteLeitura()
+        {
+            var produto = new Cadastro.Produto();
+            produto.Descricao = "Mouse";
+            // produto.Estoque = 1;
+            Console.WriteLine(produto.Estoque);
         }
 
         private static void AulaClasses()

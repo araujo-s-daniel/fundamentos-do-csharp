@@ -14,6 +14,13 @@ namespace Cadastro
     {
         private int Id;
         public string? Descricao { get; set; }
+        public int Estoque { get; }
+        // public readonly int Estoque;
+
+        public Produto()
+        {
+            Estoque = 1;
+        }
 
         public void ImprimirDescricao()
         {
