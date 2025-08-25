@@ -8,4 +8,11 @@ public class TrabalhandoComStrings
         var linha = Console.ReadLine();
         Console.WriteLine(linha?.ToLower());
     }
+
+    public void ConverterParaLetrasMaisculas()
+    {
+        Console.Write("Favor digitar alguma informação: ");
+        var linha = Console.ReadLine();
+        Console.WriteLine(linha?.ToUpper());
+    }
 }

@@ -24,7 +24,8 @@ namespace Application
         private static void TrabalhandoComStrings()
         {
             var trabalhandoComStrings = new Modulo10.TrabalhandoComStrings();
-            trabalhandoComStrings.ConverterParaLetrasMinusculas();
+            //trabalhandoComStrings.ConverterParaLetrasMinusculas();
+            trabalhandoComStrings.ConverterParaLetrasMaisculas();
         }
 
         private static void AulaTryParse()
