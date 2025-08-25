@@ -37,4 +37,35 @@ namespace Cadastro
             return Id;
         }
     }
+
+    public class Pessoa
+    {
+        public int Id { get; set; }
+        public string? Endereco { get; set; }
+        public string? Cidade { get; set; }
+        public string? Cep { get; set; }
+
+        public void ImprimirDados()
+        {
+            Console.WriteLine("Código: " + Id);
+            Console.WriteLine("Endereço: " + Endereco);
+            Console.WriteLine("Cidade: " + Cidade);
+            Console.WriteLine("CEP: " + Cep);
+        }
+    }
+
+    public class PessoaFisica : Pessoa
+    {
+        public string? Cpf { get; set; }
+
+        public void ImprimirCpf()
+        {
+            Console.WriteLine("CPF: " + Cpf);
+        }
+    }
+
+    public class Funcionario : PessoaFisica
+    {
+        public string? Matricula { get; set; }
+    }
 }
