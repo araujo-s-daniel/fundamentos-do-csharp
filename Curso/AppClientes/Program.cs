@@ -13,8 +13,14 @@ class Program
         Thread.CurrentThread.CurrentCulture = cultura;
         Thread.CurrentThread.CurrentUICulture = cultura;
 
-        Menu();
-        Console.ReadKey();
+        _clienteRepositorio.LerDadosClientes();
+
+        while (true)
+        {
+            Menu();
+
+            Console.ReadKey();
+        }
     }
 
     static void Menu()
@@ -66,6 +72,7 @@ class Program
                 }
             case 5:
                 {
+                    _clienteRepositorio.GravarDadosClientes();
                     Environment.Exit(0);
                     break;
                 }
