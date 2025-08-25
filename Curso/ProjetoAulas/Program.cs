@@ -13,7 +13,18 @@ namespace Application
             // AulaHeranca();
             // AulaClasseSelada();
             // AulaClasseAbstrata();
-            AulaRecord();
+            // AulaRecord();
+            AulaInterface();
+        }
+
+        private static void AulaInterface()
+        {
+            var notificacaoCliente = new Cadastro.NotificacaoCliente();
+            notificacaoCliente.Notificar();
+            notificacaoCliente.NotificarOutros();
+
+            Cadastro.INotificacao notificacao = new Cadastro.NotificacaoFuncionario();
+            notificacao.Notificar();
         }
 
         private static void AulaRecord()

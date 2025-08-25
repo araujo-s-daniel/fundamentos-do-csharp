@@ -128,4 +128,41 @@ namespace Cadastro
         public int Id { get; set; }
         public string? Descricao { get; set; }
     }
+
+    public interface INotificacao
+    {
+        string? Descricao { get; set; }
+
+        void Notificar();
+    }
+
+    public class NotificacaoCliente : INotificacao
+    {
+        public string? Descricao { get; set; }
+
+        public void Notificar()
+        {
+            Console.WriteLine("Notificando o cliente");
+        }
+
+        public void NotificarOutros()
+        {
+            Console.WriteLine("Notificando os outros");
+        }
+    }
+
+    public class NotificacaoFuncionario : INotificacao
+    {
+        public string? Descricao { get; set; }
+
+        public void Notificar()
+        {
+            Console.WriteLine("Notificando o funcionário");
+        }
+
+        public void NotificarOutros()
+        {
+            Console.WriteLine("Notificando os outros");
+        }
+    }
 }
